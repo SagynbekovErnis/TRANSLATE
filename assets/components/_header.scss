@@ -1,0 +1,135 @@
+header{
+    position: relative;
+}
+.header__top{
+    display: flex;
+    align-items: center;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: rgba(0, 91, 193, 0.6);
+}
+.header__logo{
+    padding: 15px 7px 15px 40px;
+}
+.header__left{
+    padding: 11px 555px 11px 0;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.header__list--item{
+    padding-right: 28px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.header__border{
+    margin-left: 350px;
+    padding-top: 152px;
+    max-width: 520px;
+    height: 444px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: rgba(0, 91, 193, 0.6);
+}
+.header__center--p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF; 
+    padding: 20px 0 0 150px;
+    margin: 0 -100px 0 0;
+}
+h1{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF; 
+    padding: 0 0 0 150px;
+    margin: 0 -250px 0 0;
+}
+.go__text--header{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin: 25px 0 0 150px;
+    padding: 15px 40px;
+    border: 2px solid #FFFFFF;
+    width: 80px;
+}
+.preview{
+    position: absolute;
+}
+
+.header__list{
+    display: flex;
+}
+
+.burger{
+    display: none;
+    position: relative;
+    cursor: pointer;
+    &__list{
+        position: absolute;
+        top: 70px;
+        display: none;
+        margin-right: 200px;
+        background: rgb(4, 75, 114);
+        padding-left: 28px;
+    }
+    &__menu{
+        width: 60px;
+        height: 60px;
+    }
+    &__line{
+        background: #fff;
+        width: 45px;
+        margin: 0 auto;
+        height: 5px;
+        align-items: center;
+        display: block;
+        margin-top: 15px;
+    }
+    &__close{
+        display: none;
+        font-size: 50px;
+        font-weight: 600;
+        color: #fff;
+        padding-left: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    &__menu.active &__close{
+        display: flex;
+    }
+    &__menu.active &__line{
+        display: none;
+    }
+    &__menu.active ~ &__list{
+        display: block;
+    }
+    .header__list--item{
+        margin-top: 15px;
+        text-align: center;
+    }
+}

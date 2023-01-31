@@ -1,0 +1,84 @@
+.catalog__top{
+    display: flex;
+}
+.decor__catalog{
+    padding: 156px 20px 0 150px;
+}
+h4{
+    padding: 156px 0 0 0px; 
+}
+.compulite__catalog{
+    padding: 70px 0 0 0;
+}
+.robe__catalog{
+    padding: 70px 37px 0 600px;
+}
+.catalog__center{
+    display: flex;
+}
+.catalog__bottom{
+    flex-wrap: wrap;
+}
+.left__solid__img{
+    width: 300px;
+    position: relative;
+    padding: 50px 0 0 220px;
+}
+.center__solid__img{
+    width: 300px;
+    position: relative;
+    padding: 50px 0 0 20px
+}
+.right__solid__img{
+    width: 300px;
+    position: relative;
+    padding: 50px 0 0 20px
+}
+.left__solid__text{
+    padding: 0;
+    position: absolute;
+    margin: -80px 0 0 320px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+    background: #005BC1;
+    padding: 10px 10px 10px 15px;
+}
+.center__solid__text{
+    padding: 0;
+    position: absolute;
+    margin: -80px 0 0 120px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+    background: #005BC1;
+    padding: 20px 85px 20px 15px;
+}
+.right__solid__text{
+    padding: 0;
+    position: absolute;
+    margin: -80px 0 0 120px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+    background: #005BC1;
+    padding: 20px 98px 20px 15px;
+}
+.catalog__bottom{
+    display: flex;
+}
